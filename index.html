@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Use DOM</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+  <section id="app">
+      <div class="modal" id="modal1">
+        <div class="overlay">
+          <div class="modal-main">
+            <h3 class="modal-header">Are your sure?</h3>
+            <p class="modal-content">You will go to the important web page!</p>
+
+            <div class="modal-footer">
+              <button class="btn btn--accept">Yes</button>
+              <button class="btn btn--cancel">No</button>
+            </div>
+          </div>
+        </div>
+  </section>
+    </div>
+
+    <button open-modal="true" modal-target="modal1" class="btn" style="margin-top: 20px">Open Modal</button>
+    <button open-modal="true" modal-target="modal1" class="btn" style="margin-top: 20px;">Open Modal</button>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
